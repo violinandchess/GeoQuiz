@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fe"
+
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/dsp_text"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:text="@string/addq" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:drawable="@color/link_text_material_light">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center_vertical" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Database"
+            android:id="@+id/submit"
+            android:background="@android:color/transparent"
+            android:drawable="@color/link_text_material_light"/>
+    </LinearLayout>
+
+</LinearLayout>

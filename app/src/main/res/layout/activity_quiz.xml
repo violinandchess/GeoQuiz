@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/abs"
+
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/dsp_text"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:text="@string/question_text" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:drawable="@color/link_text_material_light">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button"
+            android:id="@+id/btn_true"
+
+            android:drawable="@color/link_text_material_light"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_button"
+            android:id="@+id/btn_false"
+            android:drawable="@color/link_text_material_light"/>
+  </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/status"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:text="@string/attemts" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Questions To The Database"
+        android:id="@+id/btn_add"
+        android:drawable="@color/link_text_material_light"/>
+</LinearLayout>
